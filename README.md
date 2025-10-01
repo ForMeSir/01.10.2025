@@ -56,7 +56,7 @@ GET /status/332bce00-5cc6-4f95-8c52-4cc3742c3b73
 Ответ вы получите в виде статуса самой задачи и списком файлов, которых не удалось скачать:
 
 {
-"failedToDowmload": null,
+"failedToDownload": null,
 "status": "completed"
 }
 

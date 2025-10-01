@@ -41,6 +41,6 @@ func (h *Handler) taskStatus(c *gin.Context) {
 	}
 	c.JSON(http.StatusOK, gin.H{
 		"status":           task.Status,
-		"failedToDowmload": task.Failed,
+		"failedToDownload": task.Failed,
 	})
 }
